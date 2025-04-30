@@ -1,0 +1,17 @@
+{
+  "name": "backend",
+  "version": "1.0.0",
+  "description": "",
+  "main": "servidor.js",
+  "scripts": {
+    "start": "node src/servidor.js",
+    "dev" : "node --watch src/servidor.js"
+  },
+  "keywords": [],
+  "author": "Tiago Figueira",
+  "license": "MIT",
+  "dependencies": {
+    "dotenv": "^16.5.0",
+    "ws": "^8.18.1"
+  }
+}
