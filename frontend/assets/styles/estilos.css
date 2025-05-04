@@ -1,0 +1,177 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+:root {
+    --bg-site: url("../image/background-furia.jpg") repeat 430px 50px;
+    font-size: 62.5%; 
+    --fs-body: 1.6rem;
+    --fs-h2-login: 1.5rem;
+}
+
+body {
+    background: var(--bg-site);
+    color: #f2f2f2;
+    
+    font-size: var(--fs-body);
+}
+
+.container {
+    width: 100%;
+    height: 100dvh;
+
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.login {
+    width: 100%;
+    max-width: 33rem;
+    border-radius: 0.5rem;
+    padding: 2rem;
+
+    display: none;
+}
+
+.login > h2 {
+    text-align: center;
+    font-weight: 600;
+    font-size: var(--fs-h2-login);
+    margin-bottom: 2rem;
+}
+
+.login .login-form {
+    display: flex;
+    flex-direction: column;
+    gap: 1.5rem;
+}
+
+.login .login-name {
+    border: none;
+    padding: 1.5rem;
+    font-size: 1.2rem;
+    font-weight: 600;
+    background-color: #121212;
+    color: #f2f2f2;
+
+    outline: none;
+    border-radius: 0.5rem;
+}
+
+.login .login-name:focus {
+    outline: 2px solid #f2f2f2;
+}
+
+.login .login-button {
+    border: none;
+    padding: 1.5rem;
+    border-radius: 0.5rem;
+    font-size: 1.2rem;
+    font-weight: 700;
+
+    background-color: #ddd;
+    color: #121212;
+
+    cursor: pointer;
+}
+
+.login-button:hover {
+    background-color: #fff;
+}
+
+.chat {
+    width: 100%;
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+
+.chat .chat-mensagens {
+    flex-grow: 1;
+    padding: 3rem 3rem 7rem;
+
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-end;    
+}
+
+.minhas-mensagens .chat-envios {
+    background-color: #191919;
+    padding: 1.5rem 2rem;
+    display: flex;
+    align-items: center;
+
+    gap: 1rem;
+    position: fixed;
+    bottom: 0;
+    left: 0;
+    width: 100%;
+}
+
+.chat-envios .chat-mensagem {
+    border: none;
+    padding: 1.5rem;
+    border-radius: 0.8rem;
+
+    flex-grow: 1;
+
+    background-color: #212121;
+    outline: none;
+    color: #f2f2f2;
+    font-size: 1.2rem;
+}
+
+.chat-enviar {
+    border: none;
+    background: none;
+    color: #f2f2f2;
+    cursor: pointer;
+}
+
+.chat-enviar > span {
+    font-size: 3rem;
+}
+
+.chat-mensagens > div{
+    padding: 1rem;
+    width: 100%;
+    max-width: 25.5rem;
+    font-size: 1.2rem;
+    font-weight: 500;
+    margin-bottom: 1.5rem;
+    line-height: 2.2rem;
+}
+
+.minha-mensagem-enviada {
+    background-color: #f2f2f2;
+    color: #121212;
+    border-radius: 1rem 1rem 0 1rem;
+
+    align-self: flex-end;
+}
+
+.outras-mensagens {    
+    background-color: #333;
+    color: #f2f2f2;
+    border-radius: 0 1rem 1rem 1rem;
+
+    align-self: flex-start;
+}
+
+.message-sender {
+    display: block;
+    margin-bottom: 1.5rem;
+    font-weight: 700;
+    color: cadetblue;
+}
+
+
+
+
+
+
+

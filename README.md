@@ -1,10 +1,10 @@
-# Fúria - Desafio Técnico
+# Furia - Desafio Técnico
 
 ## Experiência conversacional - Desenvolver um caso conversacional relacionado à FURIA (Telegram, web chat ou mobile chat)
 
 ### Backend
 
-* NodeJS
+* [NodeJS](https://nodejs.org/docs/latest/api/)
 
 ### Dependências
 
