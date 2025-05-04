@@ -32,8 +32,6 @@ body {
     max-width: 33rem;
     border-radius: 0.5rem;
     padding: 2rem;
-
-    display: none;
 }
 
 .login > h2 {
@@ -85,7 +83,7 @@ body {
 .chat {
     width: 100%;
     height: 100%;
-    display: flex;
+    display: none;
     flex-direction: column;
     justify-content: space-between;
 }
@@ -171,7 +169,18 @@ body {
 
 
 
+.button-logoff {
+    display: none;
+    position: fixed;
+    top: 1rem;
+    right: 1rem;
+    padding: 1rem 2rem;
 
+    background-color: #d9534f;
+    color: #fff;
+    border : none;
+    border-radius: 0.5rem;
+    cursor: pointer;
 
-
-
+    z-index: 999;
+}
