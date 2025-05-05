@@ -36,7 +36,7 @@
 
 ### Como utilizar?
 
-* Pode utilizar a url gerada pelo deploy na ferramenta render
+* Pode utilizar a url gerada pelo deploy na ferramenta render: [Aplicação](https://furia-frontend.onrender.com)
 
 * Caso não utilize, o servidor após a instalação do npm deve rodar o comando: `npm run dev`
 * Ele vai abrir o servidor e se houver quaisquer atualizações, não seria necessário rodar npm novamente
